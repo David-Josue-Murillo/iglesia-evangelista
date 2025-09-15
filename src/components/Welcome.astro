@@ -1,9 +1,24 @@
 ---
 import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader } from "./ui/card";
 ---
 
 <div id='container'>
-  <div class='grid place-items-center h-screen content-center'>
-    <Button>Iglesia evangelista</Button>
+  <h2 class='text-2xl font-bold mb-4'>Bienvenido</h2>
+  <p class='mb-6'>Este es un espacio creado para compartir alabanzas, testimonios y la Palabra de Dios.</p>
+
+  <div class='grid md:grid-cols-3 gap-6'>
+    <Card>
+      <CardHeader>Alabanzas</CardHeader>
+      <CardContent> Letras de alabanzas cristianas para aprender y meditar. </CardContent>
+    </Card>
+    <Card>
+      <CardHeader>Calendario</CardHeader>
+      <CardContent> Próximos eventos y congregaciones de la iglesia. </CardContent>
+    </Card>
+    <Card>
+      <CardHeader>Testimonios</CardHeader>
+      <CardContent> Espacio para compartir tus preocupaciones o pedir consejo. </CardContent>
+    </Card>
   </div>
 </div>
