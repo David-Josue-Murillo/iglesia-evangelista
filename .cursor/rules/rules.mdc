@@ -1,0 +1,68 @@
+---
+description: A set of clear rules, designed for my Christian worship website with Astro + React + TailwindCSS + shadcn.
+globs:
+alwaysApply: true
+---
+
+🎯 General Context
+
+This project is a Christian evangelical website aimed at:
+Displaying lyrics of Christian praises.
+Publishing images and works of the church.
+Sharing testimonies, concerns, and motivational messages with Bible verses.
+Presenting information about leaders and congregations.
+Including an events calendar as a bulletin board.
+The main goal is to share the gospel and strengthen the Christian community through an accessible digital space.
+
+🛠️ Technologies
+
+Frontend: Astro as the main framework.
+Interactivity: React (only when dynamic behavior is required).
+Styles: TailwindCSS + shadcn/ui (for prebuilt components).
+Backend: Node.js + Express (planned for later).
+Database: PostgreSQL (hosted on Supabase).
+Hosting: Vercel (both frontend and backend).
+
+📌 Development Rules
+
+Clear folder structure:
+src/pages/ → main pages.
+src/components/ → shared components.
+src/components/ui/ → shadcn components.
+src/layouts/ → global layouts.
+src/styles/ → global styles.
+
+Code best practices:
+Use TypeScript in all .tsx and .astro files.
+Follow Conventional Commits (feat:, fix:, chore:, etc.).
+Use environment variables (.env) with .env.example for reference.
+Never expose credentials in the code.
+
+Design and style:
+Use a defined color scheme (soft sky blue as base, contrasting colors for accents).
+Prioritize clean, readable, and accessible design.
+Follow WCAG 2.1 accessibility standards: high contrast, keyboard support, ARIA labels.
+
+Minimum Viable Product (MVP) features:
+Praises page with organized lyrics.
+Events calendar for congregations.
+Contact form to send messages to an administrator.
+
+Iteration and growth:
+Build a MVP first, then expand with:
+Testimonies and concerns section.
+Motivational messages and Bible quotes.
+Social media integration.
+Admin panel (in future phases).
+
+AI in design:
+AI tools are allowed for UI/UX (e.g., V0, Bolt.new), but the final code must follow the defined architecture.
+AI-generated UI must respect TailwindCSS + shadcn for consistency.
+
+🚦 Agent Instructions
+
+Always propose modular, scalable, and maintainable code.
+When multiple implementation options exist, provide recommended + alternative.
+Avoid unnecessary dependencies.
+Prioritize performance, accessibility, and clarity over complexity.
+Briefly explain every suggested block of code.
